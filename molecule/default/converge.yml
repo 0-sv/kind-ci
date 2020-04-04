@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: localhost
+  tasks:
+    - name: "Include prepare"
+      include_role:
+        name: "prepare"
